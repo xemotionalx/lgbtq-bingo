@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import WeekOne from './Components/WeekOne';
+import WeekTwo from './Components/WeekTwo';
+import WeekThree from './Components/WeekThree';
+import WeekFour from './Components/WeekFour';
+import WeekFive from './Components/WeekFive';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="container">
+      <header className="title">
+      🏳️‍🌈 PRIDE BINGO 🏳️‍🌈
       </header>
+      <main className='month'>
+        <WeekOne />
+        <WeekTwo />
+        <WeekThree />
+        <WeekFour />
+        <WeekFive />
+      </main>
     </div>
   );
 }
