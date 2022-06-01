@@ -2,6 +2,7 @@
   "name": "pride-bingo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://xemotionalx.github.io/pride-2022/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
