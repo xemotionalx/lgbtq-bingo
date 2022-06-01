@@ -1,0 +1,25 @@
+.thursday {
+  background-color: #d0d0fe;
+  border: 3px solid #afaffa;
+}
+
+.thursday .number {
+  background-color: #afaffa;
+}
+
+.thursday a {
+  color: #373770;
+}
+
+.thursday a:hover {
+  border-bottom: 2px solid #373770;
+  text-shadow: #d0d0fe 3px -3px 3px;
+}
+
+.thursday:hover {
+  background: linear-gradient(to top left, #d0d0fe, #afaffa);
+}
+
+.thursday:active {
+  background: linear-gradient(to top left, #afaffa, #d0d0fe);
+}

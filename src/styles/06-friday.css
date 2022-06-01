@@ -1,0 +1,25 @@
+.friday {
+  background-color: #f9deff;
+  border: 3px solid #f2baff;
+}
+
+.friday .number {
+  background-color: #f2baff;
+}
+
+.friday a {
+  color: #74138c;
+}
+
+.friday a:hover {
+  border-bottom: 2px solid #74138c;
+  text-shadow: #f9deff 3px -3px 3px;
+}
+
+.friday:hover {
+  background: linear-gradient(to top left, #f9deff, #f2baff);
+}
+
+.friday:active {
+  background: linear-gradient(to top left, #f2baff, #f9deff);
+}

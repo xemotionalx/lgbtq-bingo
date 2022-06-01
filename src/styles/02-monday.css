@@ -1,0 +1,26 @@
+.monday {
+  background-color: #fffaaf;
+  border: 3px solid #f9d494;
+}
+
+.monday .number {
+  background-color: #f9d494;
+  color: #725015;
+}
+
+.monday p {
+  color: #725015;
+}
+
+.monday a:hover {
+  border-bottom: 2px solid #725015;
+  text-shadow: #fffaaf 3px -3px 3px;
+}
+
+.monday:hover {
+  background: linear-gradient(to top left, #fffaaf, #f9d494);
+}
+
+.monday:active {
+  background: linear-gradient(to top left, #f9d494, #fffaaf);
+}

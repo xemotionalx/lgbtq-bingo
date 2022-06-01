@@ -1,0 +1,26 @@
+.wednesday {
+  background-color: #e0fffd;
+  border: 3px solid #b6fbf7;
+  color: #365755;
+}
+
+.wednesday a {
+  color: #365755;
+}
+
+.wednesday .number {
+  background-color: #b6fbf7;
+}
+
+.wednesday a:hover {
+  border-bottom: 2px solid #365755;
+  text-shadow: #e0fffd 3px -3px 3px;
+}
+
+.wednesday:hover {
+  background: linear-gradient(to top left, #e0fffd, #b6fbf7);
+}
+
+.wednesday:active {
+  background: linear-gradient(to top left, #b6fbf7, #e0fffd);
+}

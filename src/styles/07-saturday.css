@@ -1,0 +1,16 @@
+.saturday {
+  background-color: #fa7e7c;
+  border: 3px solid #f56664;
+}
+
+.saturday .number {
+  background-color: #f56664;
+}
+
+.saturday:hover {
+  background: linear-gradient(to top left, #fa7e7c, #f56664);
+}
+
+.saturday:active {
+  background: linear-gradient(to top left, #f56664, #fa7e7c);
+}

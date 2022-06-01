@@ -4,9 +4,9 @@ const WeekTwo = () => {
  return ( <div className="week week-2">
      <div className="day sunday">
       <span className="number">5</span>
-      <p>
+      <span className="large-letter">
         G
-      </p>
+      </span>
     </div>
     <div className="day monday">
       <span className="number">6</span>

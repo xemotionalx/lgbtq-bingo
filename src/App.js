@@ -1,4 +1,4 @@
-import './App.css';
+import './main.css';
 
 import WeekOne from './Components/WeekOne';
 import WeekTwo from './Components/WeekTwo';
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="container">
       <header className="title">
-      🏳️‍🌈 PRIDE BINGO 🏳️‍🌈
+      🏳️‍🌈 PRIDE 2022 🏳️‍🌈
       </header>
       <main className='month'>
         <WeekOne />

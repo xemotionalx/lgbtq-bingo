@@ -1,0 +1,31 @@
+.sunday {
+  background-color: #ffd1d1;
+  border: 3px solid #f79393;
+}
+
+.sunday .large-letter {
+ align-self: center;
+ color: #ffd1d1;
+ font-family: 'Aladin', cursive;
+ font-size: 100px;
+ font-weight: 900;
+ justify-self: center;
+ margin-bottom: 2px;
+ margin-top: 2px;
+ text-align: center;
+ text-shadow: 4px 4px 0 #f79393, 4px -4px 0 #f79393, -4px 4px 0 #f79393, -4px -4px 0 #f79393, 4px 0px 0 #f79393, 0px 4px 0 #f79393, -4px 0px 0 #f79393, 0px -4px 0 #f79393;
+ width: 100%;
+}
+
+.sunday .number {
+  background-color: #f79393;
+  color: #662323;
+}
+
+.sunday:hover {
+  background: linear-gradient(to top left, #ffd1d1, #f79393);
+}
+
+.sunday:active {
+  background: linear-gradient(to top left, #f79393, #ffd1d1);
+}
